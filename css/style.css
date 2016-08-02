@@ -1,0 +1,616 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #EAE6E6;
+}
+.container
+{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+.header
+{
+    height: 100px;
+    width: inherit;
+    background-color:aquamarine ;
+}
+.heade_logo
+{
+    width: 315px;
+    float: left;
+    height: inherit;
+}
+.heade_logo img
+{
+    margin: 10px 0 10px 20px;
+    height: 70%;
+}
+.nav_bar
+{
+    height: auto;
+    float: left;
+    width: 660px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #BBE2D5;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+.sidebar li a:hover:not(.active) {
+    background-color: #111;
+    color:#fff;
+}
+.sidebar
+{
+    height: 500px;
+    width: 20%;
+    float: left;
+}
+.content_main
+{
+    width: 75%;
+    float: left;
+    background-color: #F7F1F1;
+    height: auto;
+    padding: 12.5px 25px;
+}
+.content_main h1
+{
+    text-align: center;
+}
+.footer_content
+{
+    clear: both;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #111111;
+    color: #fff;
+}
+.contact_form1
+{
+    background: white;
+    padding: 20px;
+}
+.contact_form2
+{
+    padding: 20px;
+    background-color: #ECE3E3;
+}
+input[type="text"],input[type="password"],input[type="tel"], input[type="email"],input[type="number"] {
+    width: 90%;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-color: #C2CADC;
+    border: 1px solid #3F4C6D;
+    outline: none;
+}
+textarea
+{
+    padding: 15px;
+    font-size: 16px;
+    background-position: 96%;
+    background-color: #C2CADC;
+    border: 1px solid #3F4C6D
+}
+.contact_form1 input[type="text"]
+{
+    padding: 15px;
+    font-size: 16px;
+    background-position: 96%;
+    background-image: url(https://nodo.s3.amazonaws.com/assets/images/input-icons/name2.png);
+    background-repeat: no-repeat;
+    background-color: #C2CADC;
+    border: 1px solid #3F4C6D
+}
+.contact_form1 input[type="email"]
+{
+    padding: 15px;
+    font-size: 16px;
+    background-position: 96%;
+    background-image:url(https://nodo.s3.amazonaws.com/assets/images/input-icons/email2.png);
+    background-repeat: no-repeat;
+    background-color: #C2CADC;
+    border: 1px solid #3F4C6D;
+
+}
+.contact_form1 input[type="password"]
+{
+    padding: 15px;
+    font-size: 16px;
+    background-position: 96%;
+    background-image:url(../image/lock1.png);
+    background-repeat: no-repeat;
+    background-color: #C2CADC;
+    border: 1px solid #3F4C6D;
+
+}
+.contact_form1 input[type="text"]:hover,input[type="password"]:hover,input[type="email"]:hover,input[type="tel"]:hover{background-color: #BBE2D5;
+    font-size: 20px;}
+.contectform
+{
+    width: 60%;
+    margin: 0 auto;
+}
+.chekbox
+{
+    float: right;
+    padding-right: 15px;
+}
+.submitBtn
+{
+    margin: 0 auto;
+    display: block;
+    background-color:#BBE2D5;
+    border: 2px solid #3F4C6D;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 16px;
+    width: 40%;
+    outline: none;
+}
+.demoTable
+{
+    margin-bottom: 10px;
+}
+.demoTable table
+{
+    width: 100%;
+    border: 6px solid #BF6B8B;
+    border-collapse:collapse;
+}
+.demoTable table td
+{
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    border: 2px solid red;
+
+}
+
+.demoTable table th
+{
+    color: #000;
+    background-color: #3F4C6D;
+    padding: 5px 0px 5px 0px;
+}
+.demoTable tr:nth-child(even)
+{
+    background-color: #C2CADC;
+    color: blanchedalmond;
+}
+.demoTable tr:nth-child(odd)
+{
+    background-color:#4CAF50;
+    color: blanchedalmond;
+}
+.demoTable tr:hover {
+    background-color: tan;
+    color: #000;
+    font-size: 20px;
+}
+
+.colorDemo h1
+{
+    color: #000;
+    text-align: center;
+}
+.colorDemo h2
+{
+    color: red;
+    text-align: center;
+}
+.colorDemo h3
+{
+    color: rgb(120, 25, 60);
+    text-align: center;
+}
+.colorDemo h4
+{
+    color: rgba(0, 0, 255, 0.3);
+    text-align: center;
+}
+.colorDemo h5
+{
+    color: hsl(120, 100%, 25%);
+    text-align: center;
+}
+.colorDemo
+{
+    border: 6px solid #BF6B8B;
+    background-color: rgba(217, 221, 255, 0.52);
+    margin-bottom: 10px;
+}
+
+
+
+/* General menu styling */
+.nav_bar .nav {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    line-height: 22px;
+}
+/* The main navigation link containers */
+.nav_bar .nav>li {
+    display: block;
+    float: left; /* Displaying them on the same line */
+    margin: 0;
+    padding: 0;
+}
+/* The main navigation links */
+.nav_bar .nav>li>a {
+    /* Layout */
+    display: block;
+    position: relative;
+    padding: 10px 20px;
+    /* Text */
+    font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 22px;
+    text-decoration: none;
+    /* Background */
+    background: white; /* For older browsers */
+    background: #fff;/* Transparent background for modern browsers */
+    /* Making the color to change on hover with a transition */
+    -webkit-transition: color .3s ease-in;
+    -moz-transition: color .3s ease-in;
+    -o-transition: color .3s ease-in;
+    -ms-transition: color .3s ease-in;
+}
+/* Changing the color on hover */
+.nav_bar .nav>li>a:hover, .nav>li:hover>a {
+    color: #0fd0f9;
+}
+/* The links which contain dropdowns menu are wider, because they have a little arrow */
+.nav_bar .nav>.dropdown>a {
+    padding: 10px 30px 10px 20px;
+}
+/* The arrow indicating the dropdown */
+.nav_bar .dropdown>a::after {
+    content: "";
+    position: absolute;
+    top: 17px;
+    right: 10px;
+    width: 7px;
+    height: 7px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+/* Changing the color of the arrow on hover */
+.nav_bar .dropdown>a:hover::after, .dropdown:hover>a::after {
+    border-color: #0fd0f9;
+}
+/* The submenus */
+.nav_bar .nav ul {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+/* General layout settings for the link containers of the submenus */
+.nav_bar .nav ul li {
+    position: absolute;
+    top: -9999px; /* Hiding them */
+    height: 0px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    /* Making them to expand their height with a transition, for a slide effect */
+    -webkit-transition: height .2s ease-in;
+    -moz-transition: height .2s ease-in;
+    -o-transition: height .2s ease-in;
+    -ms-transition: height .2s ease-in;
+}
+/* Displays the submenu links, by expading their containers (with a transition, previously defined) and by repositioning them */
+.nav_bar .dropdown:hover>ul>li {
+    height: 30px;
+    position: relative;
+    top: auto;
+}
+/* The submenu links */
+.nav_bar .nav ul li a {
+    /* Layout */
+    padding: 4px 20px;
+    width: 120px;
+    display: block;
+    position: relative;
+    /* Text */
+    font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    /* Background & effects */
+    background:white;
+    background:white;
+    -webkit-transition: color .3s ease-in, background .3s ease-in;
+    -moz-transition: color .3s ease-in, background .3s ease-in;
+    -o-transition: color .3s ease-in, background .3s ease-in;
+    -ms-transition: color .3s ease-in, background .3s ease-in;
+}
+/* Changing the link's color and background on hover */
+.nav_bar .nav ul li:hover>a, .nav ul li a:hover {
+    color: black;
+    background:#cce7f3;
+}
+/* Making the level 2 (or higher) submenus to appear at the right of their parent */
+.nav_bar .nav ul .dropdown:hover ul {
+    left: 160px;
+    top: 0px;
+}
+/* The submenu links have a different arrow which indicates another dropdown submenu */
+.nav_bar .nav ul .dropdown a::after {
+    width: 6px;
+    height: 6px;
+    border-bottom: 0;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    top: 12px;
+}
+/* Changing the color of the arrow on hover */
+.nav_bar .nav ul .dropdown:hover>a::after, .nav ul .dropdown>a:hover::after {
+    border-right: 1px solid #0fd0f9;
+    border-top: 1px solid #0fd0f9;
+}
+.scrollData
+{
+    background-color: #00FFFF;
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+    float: left;
+}
+.scrollData :hover
+{
+    background-color:#0fd0f9;
+
+}
+.advanceCss
+{
+    margin-bottom: 10px;
+    border: 6px solid #BF6B8B;
+    background-color: rgba(217, 221, 255, 0.52);
+    height: 200px;
+    padding: 20px;
+}
+.sticky_inqiry_button {
+    position: fixed;
+    text-align: center;
+    z-index: 9999;
+    right: 0px;
+    background-color: rgba(216, 15, 15, 0.83);
+    padding: 20px;
+    color: snow;
+    bottom: 35%;
+    font-size: 33px;
+    font-weight: bold;
+}
+.sticky_inqiry_button a
+{
+    color: #fff;
+}
+.sticky_Todo{
+    position: fixed;
+    text-align: center;
+    z-index: 9999;
+    left: 0px;
+    background-color: rgba(216, 15, 15, 0.83);
+    padding: 20px;
+    color: snow;
+    bottom: 0%;
+}
+.sticky_Todo ul
+{
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0px;
+    font-size: 20px;
+}
+.sticky_Todo ul li
+{
+    padding: 10px;
+    border-bottom: 2px solid;
+}
+.sticky_ToDo a
+{
+    color: #fff;
+}
+
+.advanceCss h1
+{
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 20px;
+    background: #D7EFF5;
+    color: #B71C1C;
+}
+.buttoDemo
+{
+    background-color: #00FFFF;
+    float: left;
+    padding: 20px;
+    margin: 0px 10px 0px 10px;
+}
+.button
+{
+    background: red;
+    height: auto;
+    width: auto;
+    padding: 12px;
+    border-radius: 20px;
+    margin: 10px;
+    float: left;
+}
+.animantionTags
+{
+    padding: 20px;
+    border: 6px solid #BF6B8B;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.zoomImage img:hover
+{
+    -webkit-transform: scale(2,2);
+}
+.zoomImage img
+{
+    margin: 0 auto;
+    display: block;
+}
+.zoomImageRotate
+{
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+.zoomImageRotate img
+{
+    margin: 0 auto;
+    display: block;
+}
+.zoomImage
+{
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+.clear:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.zoomImageRotate img:hover
+{
+    -webkit-transform: rotate(90deg);
+}
+.zoomImageTransit
+{
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+.zoomImageTransit img
+{
+    margin: 0 auto;
+    display: block;
+}
+.zoomImageTransit img:hover
+{
+    -webkit-transition: transform 10s linear 2s;
+    -webkit-transform: scale(3,3);
+}
+.linearData
+{
+    float: left;
+    padding: 20px;
+    background-color: red;
+}
+.linearData:hover
+{
+    -webkit-transition: width 2s linear 1s;
+    width:500px;
+}
+.animatedImageBox
+{
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+}
+.contentBox
+{
+    width: 200px;
+    background-color: #1e5799;
+    padding: 7px;
+    clear: both;
+    text-align: center;
+}
+.contentBox:hover
+{
+    -webkit-transition: width 2s;
+    width:500px;
+
+}
+.tableArithmeticsDemo
+{
+    float: left;
+    border: 2px solid indianred;
+    margin-left: 20px;
+    padding: 10px;
+}
+.javaSriptsBasic
+{
+    padding: 20px;
+    border: 6px solid #BF6B8B;
+    height: auto;
+    margin-bottom: 10px;
+}
+.chageBorder
+{
+    border: 6px solid #312328;
+}
+.redBorder
+{
+    border: 2px solid red !important;
+}
+.errorMsg
+{
+    color: red !important;
+}
+.special
+{
+    padding: 20px;
+    background-color: yellow;
+
+}
+.bindMethod
+{
+    padding: 20px;
+    background-color: #3F4C6D;
+}
+
+.simpleForm input{
+    width: 20%;
+    border: 1px solid;
+    border-radius: 0px;
+    padding: 5px;
+}
+
+.stack{
+    width:100px;
+    height:100px;
+    background-color:red;
+    border:1px solid black;
+}
+.removedata
+{
+    background-color: #3F4C6D;
+}
+.studentTable
+{
+    width: 100%;
+}
